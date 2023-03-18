@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background: linear-gradient(rgba(49, 49, 49, 0), rgba(36, 36, 36, 0)), url(imagem/carrosl.webp);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    min-width: 100wh;
+    min-height: 100hw;
+}
+.header1{
+    background-color: rgba(0, 0, 0, 0.486);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.navegaçao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 0.2px solid white;
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    font-size: 22px;
+}
+
+.entrar{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    font-size: 25px;
+}
+.botao1{
+    color: white;
+    text-decoration: none;
+}
+.botao2{
+    color: white;
+    text-decoration: none;
+}
+.botao3{
+    color: white;
+    text-decoration: none;
+}
+.botao4{
+    color: white;
+    text-decoration: none;
+}
+.botao5{
+    color: white;
+    text-decoration: none;
+}
+.main1{
+    padding-top: 250px;
+    background-color: none;
+    color: white;
+}
+.principal{
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    text-align: center;
+}
+.h1{
+    font-size: 35px;
+}
+.alugar:hover{
+    font-size: 28px ;
+}
+.alugar{
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 12px 18px;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.h3{
+    font-size: 28px;
+}
+.secundario{
+    background-color: rgba(0, 0, 0, 0.671);
+    color: rgb(255, 255, 255);
+    margin-top: 150px;
+    padding: 100px 100px;
+    
+}
+p{
+    display: flex;
+    
+    justify-content: center;
+    align-content: flex-start;
+}
+body::-webkit-scrollbar{
+    background-color: rgba(0, 0, 0, 0.836);
+    width: 0;
+    right: 0;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.671);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    color: white;
+    border-top: 0.2px solid white;
+   
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    
+}
+.app{ 
+    border-radius: 10px;
+    
+}
+.play{
+    border-radius: 10px;
+}
+
+
+.header2{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 30px 30px;
+    border-bottom: 1px solid white;
+}
+.body2{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background: linear-gradient(rgba(49, 49, 49, 0.521), rgba(36, 36, 36, 0.568)), url(imagem/carrosl.webp);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    min-width: 100wh;
+    min-height: 100hw;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.titulo{
+    display: flex;
+    justify-content: space-around;
+}
+.fotos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ratch{
+    width: 400px;
+    right: 300px;
+}
+.seda{
+    width: 400px;
+    right: 300px;
+}
+.suv{
+    width: 400px;
+    right: 300px;
+}
+img{
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.hatchpag{
+    background-color: rgba(0, 0, 0, 0.932);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    border-radius: 20px;
+    gap: 100px;
+}
+.simulação{
+    font-size: 35px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#dias{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#km{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.simular:hover{
+    cursor: pointer;
+    background-color: rgba(65, 63, 63, 0.651);
+}
+.simular{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+
+}
+.back{
+    border: none;
+    margin-top: 100px;
+    margin-left: 940px;
+    
+}
+.back2{
+    border: none;
+}
+.resposta{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+.mensagem{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}
+.back-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-left: 425px;
+    gap: 40px;
+}
